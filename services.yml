@@ -185,30 +185,7 @@ parameters:
     # Specify allowed request methods, specify ['*'] to allow all possible ones.
     allowedMethods: ["*"]
     # Configure requests allowed from specific origins.
-    allowedOrigins: [
-      'https://amptest.grameenphone.com',
-      'https://amp.grameenphone.com',
-      'https://shop.grameenphone.com',
-      'https://webtestda.grameenphone.com',
-      'https://gpfi.grameenphone.com',
-      'https://botestda.grameenphone.com',
-      'https://cdntest.grameenphone.com',
-      'https://botestdashop.grameenphone.com',
-      'https://bkwebstg.grameenphone.com',
-      'https://bkshopthc.grameenphone.com',
-      'https://backofficeshop.grameenphone.com',
-      'https://testgpfi.grameenphone.com',
-      'https://bkwebsitethc.grameenphone.com',
-      'https://backoffice.grameenphone.com',
-      'https://gp-play.grameenphone.com',
-      'https://stage.grameenphone.com',
-      'https://weblogintestda.grameenphone.com',
-      'https://webloginda.grameenphone.com',
-      'https://weblogin.grameenphone.com',
-      'https://da.grameenphone.com',
-      'https://www.grameenphone.com',
-      'https://grameenphone.com'
-    ]
+    allowedOrigins: [*]
     # Sets the Access-Control-Expose-Headers header.
     exposedHeaders: false
     # Sets the Access-Control-Max-Age header.
