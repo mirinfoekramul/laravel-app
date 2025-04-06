@@ -208,6 +208,7 @@ parameters:
       'https://da.grameenphone.com',
       'https://www.grameenphone.com',
       'https://grameenphone.com'
+      'https://new.com'
     ]
     # Sets the Access-Control-Expose-Headers header.
     exposedHeaders: false
